@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+.popup {
+    position: fixed;
+    width: 75%;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    
+    transform: translateX(-50%);
+    background-color: #f7f8f8;
+    color: rgba(0, 0, 0, 0.107);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation: slideIn 0.7s ease-in-out;
+}
+
+.popup p{
+    color: black;
+}
+@keyframes slideIn {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+

@@ -1,0 +1,83 @@
+.form-wholediv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30%;
+}
+
+.form-wholediv img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.formcon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px;
+    justify-content: center;
+}
+
+.form-control:focus{
+    border-color: rgb(12, 12, 14);
+    box-shadow: none;
+}
+
+.eyeclass{
+    position: relative;
+    bottom: 50%;
+    left: 90%;
+}
+
+.popup p{
+    color: black;
+}
+
+.popup {
+    position: fixed;
+    width: 75%;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    
+    transform: translateX(-50%);
+    background-color: #f7f8f8;
+    color: rgba(0, 0, 0, 0.107);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation: slideIn 0.7s ease-in-out;
+}
+
+.extra{
+    border: none;
+    border-bottom: solid 1px black;
+    border-radius: 0;
+}
+
+.register-direct{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.register-direct a{
+    text-decoration: none;
+    color: blue;
+}
+.popup p{
+    color: black;
+}
+@keyframes slideIn {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 0;
+    }
+}
