@@ -57,6 +57,7 @@ const isHiddenPage = hideNavbarFooterPages.some(path => location.pathname.starts
             {!isHiddenPage && <Sidebar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />}
             <Routes>
                 <Route path="/" element={<Posts />} />
+                <Route path="/linkedin" element={<Posts />} />               
                 <Route path='/mynetwork' element={<Mynetwork />} />
                 <Route path='/post' element={<Addpost />}/>
                 <Route path='/notify' element={<Notifications />} />
