@@ -37,7 +37,7 @@ const RegistrationComponent = () => {
             return; // Do not proceed with registration if any field is empty
         }
         try {
-            const response = await axios.post('http://localhost/projects/linkedin/userRegister.php', null, {
+            const response = await axios.post('https://csigmrit.com/project/userRegister.php', null, {
                 params: formData,
             });
 
